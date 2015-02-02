@@ -863,7 +863,7 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('images/overlay.png'), url('http://www.atmtxphoto.com/Blog/creative-commons/disneyland-new-orleans-square/1157969026_EieA7-M.jpg');
+		background: url('images/overlay.png'), url('../images/disneyneworleans.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
