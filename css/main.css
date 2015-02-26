@@ -759,8 +759,6 @@ margin: 0 0 10px;
 ==============================*/
 #rsvpwrap {
 	background: url(../images/love-abstract.jpeg) no-repeat center top;
-	opacity: 0.5;
-/* 	background: url(http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_5259a34e5d050_1.JPG) no-repeat center top; */
 	margin-top: 0px;
 	padding:70px 0;
 	text-align:center;
@@ -778,6 +776,10 @@ margin: 0 0 10px;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#rsvpwrap img {
+	opacity: 0.5;
 }
 
 #rsvpwrap h2 {
