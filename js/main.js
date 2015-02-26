@@ -1,34 +1,34 @@
 (function($){
-	
+
 	"use strict";
-	
+
     $(document).ready(function(){
-	
+
 		jQuery('#countdown_dashboard').countDown({
 				targetDate: {
-					'day': 		7, // Put the date here
-					'month': 	5, // Month
-					'year': 	2014, // Year
+					'day': 		17, // Put the date here
+					'month': 	10, // Month
+					'year': 	2015, // Year
 					'hour': 	0,
 					'min': 		0,
 					'sec': 		0
 				} //,omitWeeks: true
 		});
-			
+
 
 
 
 		/* Hero height
 		================================================== */
 		var windowHeight = $(window).height();
-		
+
 		$('.hero').height( windowHeight );
-		
+
 		$(window).resize(function() {
-			
+
 			var windowHeight = $(window).height();
 			$('.hero').height( windowHeight );
-			
+
 		});
 
 		// Menu settings
@@ -37,17 +37,17 @@
 			$('body').toggleClass('body-push-toleft');
 			$('#theMenu').toggleClass('menu-open');
 		});
-			
+
 		/* Gallery
 		================================================== */
 		new Photostack( document.getElementById( 'photostack' ), {
 			callback : function( item ) {
 				//console.log(item)
 			}
-		} );	
-			
+		} );
+
 			/* Gallery popup
-		=================================================== */	
+		=================================================== */
 		$('.photostack').magnificPopup({
 			delegate: 'a',
 			type: 'image',
@@ -69,23 +69,23 @@
 				duration: 300 // don't foget to change the duration also in CSS
 			} */
 		});
-		
+
 		//Home Background slider
-		jQuery.supersized({	
+		jQuery.supersized({
 		slide_interval          :   3000,		// Length between transitions
 		transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-		transition_speed		:	700,		// Speed of transition				
+		transition_speed		:	700,		// Speed of transition
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		slides 					:  	[			// Slideshow Images
 										{image : 'placeholders/1400x950.gif'},
-										{image : 'placeholders/1400x950.gif'},  
+										{image : 'placeholders/1400x950.gif'},
 										{image : 'placeholders/1400x950.gif'}
 									]
-		});	
-	
-	
-			
-	});		
+		});
+
+
+
+	});
 
 
 })(jQuery);
