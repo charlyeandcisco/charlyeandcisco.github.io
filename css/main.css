@@ -758,7 +758,6 @@ margin: 0 0 10px;
 /*   VII. RSVP
 ==============================*/
 #rsvpwrap {
-	background: url(../images/antiquewriting.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding:70px 0;
 	text-align:center;
@@ -778,8 +777,16 @@ margin: 0 0 10px;
     background-size: cover;
 }
 
-#rsvpwrap img {
-	opacity: 0.5;
+#rsvpwrap::after {
+  content: "";
+  background: url(../images/antiquewriting.jpg) no-repeat center top;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 #rsvpwrap h2 {
