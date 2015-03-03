@@ -759,6 +759,7 @@ margin: 0 0 10px;
 ==============================*/
 #rsvpwrap {
 	margin-top: 0px;
+  background: url(../images/antiquewriting.jpg) no-repeat center top;
 	padding:70px 0;
 	text-align:center;
 	background-attachment: relative;
@@ -779,7 +780,6 @@ margin: 0 0 10px;
 
 #rsvpwrap::after {
   content: "";
-  background: url(../images/antiquewriting.jpg) no-repeat center top;
   opacity: 0.5;
   top: 0;
   left: 0;
