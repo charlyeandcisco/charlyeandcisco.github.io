@@ -344,7 +344,8 @@ padding:0;
 ==============================*/
 
 #headerwrap {
-	//background: url(../img/header-bg.jpg) no-repeat center top;
+	background-image: url(../images/foggytreesneworleans.jpg);
+	background-repeat: no-repeat;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -395,7 +396,6 @@ top: 0px;
 width: 100%;
 height: 100%;
 /* background-image: url(http://www.catthemes.net/demos/themes/prest/img/overlay.png); */
-background-image: url(../images/foggytreesneworleans.jpg);
 }
 
 
