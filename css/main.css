@@ -89,8 +89,8 @@ a:after {
 }
 
 .amp {
-font-family: 'Niconne', cursive;
-text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 0px;
+font-family: 'Pacifico', cursive;
+color: #ffffff;
 }
 
 .hearts {
@@ -759,7 +759,7 @@ margin: 0 0 10px;
 ==============================*/
 #rsvpwrap {
 	margin-top: 0px;
-  background: url(../images/antiquewriting.jpg) no-repeat center top;
+  background: url(../images/love-abstract.jpeg) no-repeat center top;
 	padding:70px 0;
 	text-align:center;
 	background-attachment: relative;
@@ -790,7 +790,7 @@ margin: 0 0 10px;
 }
 
 #rsvpwrap h2 {
-	color: #ffffff;
+	color: #dd675b;
 }
 
 
