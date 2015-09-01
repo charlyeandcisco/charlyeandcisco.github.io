@@ -498,15 +498,15 @@ width:250px;
 
 /* This is where you change the path of the images for the couple */
 .ch-img-1 {
-	background-image: url(images/cisco_resized.jpg);
+	background-image: url(../images/cisco__cropped.jpg);
 }
 
 .ch-img-2 {
-	background-image: url(images/beach_together.jpg);
+	background-image: url(../images/beach_together.jpg);
 }
 
 .ch-img-3 {
-	background-image: url(images/charlye_cropped.jpg);
+	background-image: url(../images/charlye_cropped.jpg);
 }
 
 .ch-info {
