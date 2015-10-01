@@ -757,9 +757,11 @@ margin: 0 0 10px;
 
 /*   VII. RSVP
 ==============================*/
-#rsvpwrap {
+#timeline {
 	margin-top: 0px;
-  background: url(../images/love-abstract.jpeg) no-repeat center top;
+    
+
+    background: url(../images/love-abstract.jpeg) no-repeat center top;
 	padding:70px 0;
 	text-align:center;
 	background-attachment: relative;
